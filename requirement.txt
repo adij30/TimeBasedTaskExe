@@ -1,0 +1,4 @@
+mysql==0.0.2
+mysqlclient @ file:///F:/mysqlclient-1.4.6-cp37-cp37m-win32.whl
+pytz==2020.1
+sqlparse==0.3.1
