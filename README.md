@@ -1,19 +1,12 @@
-#TimeBasedTaskExecution
+# TimeBasedTaskExecution
 Here Anyonene can create task,based on time
 
-####Prerequisites
+#### Prerequisites
 Python Version: 3.X.X
 
-####Libraries Required
-pip         20.1.1<br>
-pytz        2020.1<br>
-setuptools  47.3.1<br>
-sqlparse    0.3.1<br>
-wheel       0.34.2
-
-
-####Running the tests
-#####1.Test for TimeBase
+####
+#### Running the tests
+##### 1.Test for TimeBase
 
 A) CALL U2 India 13:00:00 14:30:00<br>
 Current time: 13:30:00<br> Output:
@@ -28,7 +21,7 @@ Current time: 12:00:00<br> Output:
 13:00:00
 
 
-#####2.For enhanced version
+##### 2.For enhanced version
 A)Email - U1 - India - 13:30:00 14:30:00 Tuesday and Thursday<br> Current datetime: Wednesday 12:00:00<br>
 Output:
 Thursday 13:30:00
@@ -41,8 +34,8 @@ C)Email - U1 - India - 13:30:00 14:30:00 Tuesday and Thursday<br> Current dateti
 Output:
 True
 
-####For example
-#####1.For TimeBased
+#### For example
+##### 1.For TimeBased
 Enter your Task Type(Email,Call,SMS):Call<br>
 UserName:Suhas<br>
 Enter a Start time in 24Hours format as HH:MM:SS :12:00:00<br>
@@ -55,7 +48,7 @@ Call Suhas 12:00:00 13:00:00<br>
 Output:<br>
 12:00:00
 
-#####2. For EnhacedTimeBased
+##### 2. For EnhacedTimeBased
 Enter your Task Type(Email,Call,SMS):Email<br>
 UserName:Suhas<br>
 Enter a Start time in 24Hours format as HH:MM:SS :14:00:00<br>
@@ -73,9 +66,10 @@ Monday 14:00:00
 
 
 
-####Versioning
+#### Versioning
 We use Git for versioning. For the versions available, see the tags on this repository.
-https://github.com/suhaswani/TimeBasedTaskExe.git
 
-####Author
+#### Author
  Suhas Wani- Software Developer - bitwin Technology
+
+
